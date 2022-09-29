@@ -16,7 +16,7 @@ const categoryModel = require('../model/cateogorymodel')
 const UserModel = require('../model/customermodel')
 
 // Require-pagination
-const { pagination } = require('../../middleware/paginationMiddleware')
+const { pagination } = require('../middleware/pagination')
 
 // AdminLogin
 const adminLogin = asyncHandler(async (req, res) => {

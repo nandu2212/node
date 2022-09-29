@@ -6,11 +6,11 @@ const productSchema = mongoose.Schema(
   {
     productName: {
       type: String,
-      required: [true, 'ProductName is required'],
+      required: true,
     },
     price: {
       type: Number,
-      required: [true, 'Price is required'],
+      required: true,
     },
     category: {
       type: ObjectId,
